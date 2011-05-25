@@ -1,4 +1,16 @@
 FoodGroups::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/groups"
+
+  get "pages/impressum"
+
+  get "pages/providers"
+
+  get "pages/cart"
+
+  get "pages/groupslist"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

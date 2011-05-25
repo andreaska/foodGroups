@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>FoodGroups</title>
+  <title>FoodGroups | <%= @title  %></title>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
-<body>
+    <body>
+    <div id="header">
+	<div id="hlogo">
+	    <img id="image"src="/images/logo.gif" >
+	</div>
 
-<%= yield %>
+	<div id="hmenus">
+	    <div class="nav mainnavs">
+	        <ul>
+	            <li><a id="homeSite" href="/pages/home">Home</a></li>
+	            <li><a id="groupSite" href="/pages/groups">Gruppen</a></li>
+	            <li><a id="farmSite" href="/pages/providers">Lieferanten</a></li>
+	            <li><a id="cartSite" href="/pages/cart">Warenkorb</a></li>
+	        </ul>
+	    </div>
+	</div>
+    </div>
+	<div id="sidebar">
+	    <div class="loginArea" style="">
 
-</body>
+	        <h4>Anmeldung</h4>
+	        <div>
+	            <p>Benutzername<input id="inputName" maxlength="20"> </input></p>
+	        </div>
+
+	        <div>
+	            <p>Passwort<input id="inputPassword" maxlength="20" type=password> </input></p>
+	        </div>
+	        <div class="loginButton">
+	            <li id="login">Anmelden</li>
+	        </div>
+	    </div>
+
+	    <div class="newAccount">
+	        <p></p>
+	        <p>Noch keine Account?</p>
+	        <li id="newLogin">Registrieren</li>
+	    </div>
+	</div>
+	<div id="content">
+            <%= yield %>
+	</div>
+    <div id="footer">
+	<a id="impressum" href="index.html">Impressum</a>
+    </div>
+    </body>
 </html>

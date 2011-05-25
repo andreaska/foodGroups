@@ -1,0 +1,207 @@
+/* 
+    Document   : CascadeStyleSheet
+    Created on : 30.04.2011, 16:54:46
+    Author     : Giaco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    display: block;
+    margin: 0 auto;
+    top: 0;
+    width: 960px;
+    color: #222222;
+    font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+    font-size: 19px;
+    line-height: 1.5em; 
+}
+
+h1 {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+
+a {
+    color: #009989;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+
+}
+
+#header{
+    height: 100px;
+    margin: 0 auto;
+    width: 960px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+#header #hlogo {
+    float: left;
+    margin-top: 0;
+}
+
+#hlogo #image {
+    display: block;
+    float: left;
+    /*height: 110px;
+    width: 190px;*/
+    margin-right: 40px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+#header #hmenus {
+    float: left;
+    margin-left: -20px;
+    margin-top: 20px;
+    padding: 34px 0 20px 0px;
+    width: 705px;
+}
+
+.nav{
+    float: left;
+}
+
+.nav ul {
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+
+ul {
+    list-style: disc outside none;
+    margin-bottom: 1em;
+}
+.nav li {
+    -moz-box-shadow: 5px 5px 15px #222222;
+    background: none repeat scroll 0 0 #A3A948;
+    border: 1px solid #FFFFFF;
+    display: block;
+    float: left;
+    margin-right: 29px;
+}
+
+.nav a {
+    color: #FFFFFF;
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#content {
+    width: 721px;
+    float: left;
+    border-top: 1px solid #EDB92E;
+    padding: 60px 0 0 40px;
+    margin-left: 29px;
+    margin-bottom: 1em;
+}
+
+#sidebar {
+    float: left;
+    width: 170px;
+    margin-bottom: 1em;
+}
+
+.loginArea {
+    background: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.loginArea h4{
+    padding-bottom: 7px;
+
+}
+
+.loginArea p {
+    margin-bottom: 0.5em;
+    margin-top: 0.3em;
+}
+
+p {
+    clear: both;
+    margin-bottom: 1em;
+}
+
+#inputName, #inputPassword{
+    width: 100px;
+    padding: 0 8px 2px;
+
+}
+
+.newAccount{
+    background-color: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-top:10px;
+
+}
+
+.newAccount p{
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+#sideLine{
+    border: 1px solid #000000;
+    height: 100px;
+    width: 0;
+    float: right;
+
+}
+
+.loginButton #login{
+    list-style: none;
+    /* border: 1px solid #000;*/
+    background-color: whitesmoke;
+    margin: 10px 0 auto;
+    text-align: center;
+    width: 130px;
+    padding: 3px 3px;
+    -moz-border-radius : 5px;
+    -moz-box-shadow: 0px 2px 5px #000000;
+    font-weight: bold;
+
+}
+
+#newLogin{
+    list-style: none;
+    /* border: 1px solid #000;*/
+    background-color: white;
+    margin: 10px 0 auto;
+    text-align: center;
+    width: 130px;
+    padding: 3px 3px;
+    -moz-border-radius : 5px;
+    -moz-box-shadow: 0px 2px 5px #000000;
+    font-weight: bold;
+
+}
+#footer #impressum{
+
+    color: #000000;
+    width: 960px;
+    display: block;
+    float: left;
+
+}
